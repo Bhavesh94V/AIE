@@ -15,7 +15,7 @@ const initialState: ContactState = {
 }
 
 // Backend API URL - change this to your deployed backend URL
-const API_BASE_URL = process.env.NODE_ENV === "production" ? "https://your-backend-domain.com" : "http://localhost:5000"
+const API_BASE_URL = process.env.NODE_ENV === "development" ? "https://aie-amaa.onrender.com" : "http://localhost:5000"
 
 // Async thunk for submitting contact form
 export const submitContactForm = createAsyncThunk(

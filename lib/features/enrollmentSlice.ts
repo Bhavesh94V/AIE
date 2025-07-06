@@ -17,7 +17,7 @@ const initialState: EnrollmentState = {
 }
 
 // Backend API URL - change this to your deployed backend URL
-const API_BASE_URL = process.env.NODE_ENV === "development" ? "https://aie-amaa.onrender.com" : "http://localhost:5000"
+const API_BASE_URL = process.env.NODE_ENV === "development" ? "https://aie-amaa.onrender.com" : "https://aie-amaa.onrender.com"
 
 // Async thunk for submitting enrollment form
 export const submitEnrollmentForm = createAsyncThunk(
